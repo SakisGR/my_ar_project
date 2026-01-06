@@ -7,8 +7,8 @@
   <!-- A-Frame -->
   <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1.4.2/dist/aframe.min.js"></script>
 
-  <!-- AR.js (ΣΤΑΘΕΡΗ έκδοση – ΟΧΙ master) -->
-  <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.5/aframe/build/aframe-ar-nft.js"></script>
+  <!-- AR.js MARKER BUILD (ΟΧΙ NFT) -->
+  <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.5/aframe/build/aframe-ar.js"></script>
 
   <style>
     body {
@@ -38,15 +38,11 @@
   <a-scene
     embedded
     vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: true"
     arjs="sourceType: webcam; debugUIEnabled: false;"
     renderer="logarithmicDepthBuffer: true;"
   >
 
-    <!-- ================= -->
-    <!-- MINIMAL CAMERA TEST -->
-    <!-- ================= -->
-    <!-- Αν ΔΕΝ ζητήσει κάμερα, φταίει browser / https -->
+    <!-- TEST OBJECT -->
     <a-box
       position="0 0.5 -1"
       depth="0.5"
@@ -54,26 +50,6 @@
       width="0.5"
       color="red"
     ></a-box>
-
-    <!-- ================= -->
-    <!-- NFT (προσωρινά σχολιασμένο) -->
-    <!-- ================= -->
-    <!--
-    <a-nft
-      type="nft"
-      url="nft/my-image"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance="0.01"
-      smoothThreshold="5"
-    >
-      <a-entity
-        gltf-model="model/model.glb"
-        scale="1 1 1"
-        position="0 0 0"
-      ></a-entity>
-    </a-nft>
-    -->
 
     <!-- Camera -->
     <a-camera></a-camera>

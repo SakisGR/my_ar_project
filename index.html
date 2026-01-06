@@ -41,21 +41,21 @@
     <!-- on 'url' use the path to the Image Descriptors created before. -->
     <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
     <a-nft
-      type="nft"
-      url="https://sakisgr.github.io/my_ar_project/nft/my-image"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
+  type="nft"
+  url="https://sakisgr.github.io/my_ar_project/nft/my-image"
+  smooth="true"
+  smoothCount="10"
+  smoothTolerance=".01"
+  smoothThreshold="5"
+>
+    <a-entity
+      gltf-model="https://sakisgr.github.io/my_ar_project/model/model.glb"
+      scale="500 500 500"
+      position="150 50 -150"
+      rotation="-90 0 0"
     >
-      <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
-      <a-entity
-        gltf-model="https://sakisgr.github.io/my_ar_project/model/model.glb"
-        scale="200 200 200"
-        position="50 150 0"
-      >
-      </a-entity>
-    </a-nft>
+    </a-entity>
+</a-nft>
     <!-- static camera that moves according to the device movemenents -->
     <a-entity camera></a-entity>
   </a-scene>

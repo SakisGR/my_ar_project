@@ -11,8 +11,7 @@
 		{
 			"name":"Scene",
 			"nodes":[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -20,15 +19,6 @@
 		{
 			"mesh":0,
 			"name":"agios_bhssarionas_mnhmeio_Model_4_simplified"
-		},
-		{
-			"mesh":1,
-			"name":"Plane",
-			"scale":[
-				-5.491859436035156,
-				-5.491859436035156,
-				-5.491859436035156
-			]
 		}
 	],
 	"materials":[
@@ -62,19 +52,6 @@
 					},
 					"indices":5,
 					"material":0
-				}
-			]
-		},
-		{
-			"name":"Plane",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":6,
-						"NORMAL":7,
-						"TEXCOORD_0":8
-					},
-					"indices":9
 				}
 			]
 		}
@@ -139,40 +116,6 @@
 			"componentType":5125,
 			"count":652389,
 			"type":"SCALAR"
-		},
-		{
-			"bufferView":6,
-			"componentType":5126,
-			"count":4,
-			"max":[
-				1,
-				0,
-				1
-			],
-			"min":[
-				-1,
-				0,
-				-1
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":7,
-			"componentType":5126,
-			"count":4,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":8,
-			"componentType":5126,
-			"count":4,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":9,
-			"componentType":5123,
-			"count":6,
-			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -211,30 +154,6 @@
 			"byteLength":2609556,
 			"byteOffset":33920692,
 			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":48,
-			"byteOffset":36530248,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":48,
-			"byteOffset":36530296,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":32,
-			"byteOffset":36530344,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":12,
-			"byteOffset":36530376,
-			"target":34963
 		}
 	],
 	"samplers":[
@@ -245,8 +164,8 @@
 	],
 	"buffers":[
 		{
-			"byteLength":36530388,
-			"uri":"Untitled.bin"
+			"byteLength":36530248,
+			"uri":"model.bin"
 		}
 	]
 }
